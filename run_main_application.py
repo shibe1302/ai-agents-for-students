@@ -73,7 +73,7 @@ for sess_id, sess_name in sessions:
             st.rerun()
 
 # Main chat
-st.title("Chatbot SQLite + Streamlit")
+st.title("Chatbot thiểu năng 🤖")
 
 # Load messages
 if not st.session_state.messages:
