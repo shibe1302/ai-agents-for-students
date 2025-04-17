@@ -74,7 +74,7 @@ async def send_receive_response(user_promt):
                                  )
     assistant_reply = response['message']['content']
     res_da_xu_li=separate_code_and_text(assistant_reply)
-    print(assistant_reply)
+    # print(assistant_reply)
     messages.append(
         {
             'role': 'assistant',
